@@ -1,0 +1,85 @@
+/***********************************************************************
+**
+**        MUNICIPALIDAD VICENTE LOPEZ
+**        Author: onMedia                
+**        URL: https://www.onmedia.com.ar
+**                                       
+************************************************************************/
+
+@font-face {
+  font-family: 'arialbold';
+  src: url("../fonts/arial_bold-webfont.woff2") format("woff2"), url("../fonts/arial_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'bebasregular';
+  src: local("Bebas"), url("../fonts/bebas.ttf") format("truetype"), url("../fonts/bebas___-webfont.woff2") format("woff2"), url("../fonts/bebas___-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'brandon_grotesque';
+  src: local("Brandon_Grotesque"), local("brandon-grotesque"), url("../fonts/brandon-bld.otf") format("opentype"), url("../fonts/brandon-bld.ttf") format("truetype"), url("../fonts/brandon_bld-webfont.woff2") format("woff2"), url("../fonts/brandon_bld-webfont.woff") format("woff");
+  font-weight: 800;
+  font-style: normal; }
+@font-face {
+  font-family: 'brandon_grotesque';
+  src: local("Brandon_Grotesque"), local("brandon-grotesque"), url("../fonts/brandon_blk.otf") format("opentype"), url("../fonts/brandon_blk.ttf") format("truetype"), url("../fonts/brandon_blk-webfont.woff2") format("woff2"), url("../fonts/brandon_blk-webfont.woff") format("woff");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: 'brandon_grotesque';
+  src: local("Brandon_Grotesque"), local("brandon-grotesque"), url("../fonts/brandon_light.otf") format("opentype"), url("../fonts/brandon_light.ttf") format("truetype"), url("../fonts/brandon_light-webfont.woff2") format("woff2"), url("../fonts/brandon_light-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'brandon_grotesque';
+  src: local("Brandon_Grotesque"), local("brandon-grotesque"), url("../fonts/brandon_reg.otf") format("opentype"), url("../fonts/brandon_reg.ttf") format("truetype"), url("../fonts/brandon_reg-webfont.woff2") format("woff2"), url("../fonts/brandon_reg-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/************************************************************************/
+/** HOME **/
+/************************************************************************/
+.icons-grid img {
+    display: flex;
+    margin: auto;
+}
+
+.home-icon-text {
+  display: block;
+  margin-top: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "brandon_grotesque";
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.home-title{
+    height: 90%;
+    text-align: center;
+    border-radius: 10px 10px 50px 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+
+}
+
+.home-title-agenda {
+    background: linear-gradient(to right, #b03880 0%, #b03880 30%, #4d3280 100%);
+}
+
+.home-title-tramites {
+    background: #93af37;
+}
+
+.home-title-agenda h3{
+  font-family: brandon_grotesque;
+  color: #FFFFFF;
+}
+
+
+
+
